@@ -1,0 +1,47 @@
+
+stages:
+  - stage1
+  - deploy
+
+build:
+  stage: stage1
+  tags:
+    - production
+  only:
+    - staging
+  script:
+    - echo "Deploy mozosuite to staging server"
+    - echo "running as $USER in $PWD HOME is $HOME"
+    - . $HOME/.bashrc
+    - nvm use v18
+    - npm install
+    - cp -v .env.staging .env.production
+    - CI_COMMIT_SHORT_SHA=$CI_COMMIT_SHORT_SHA npm run build
+    - echo "Deploy to production server"
+    - PORT=40256 docker-compose -c staging -f docker-compose.yml  up -d --build
+  environment:
+    name: staging
+    url: https://signup-dev.mozosuite.com
+
+
+production_deploy:
+  stage: deploy
+  tags:
+    - production
+  only:
+    - main
+  script:
+    - echo "We are currently in stage 2"
+    - echo "running as $USER in $PWD CI_COMMIT_SHORT_SHA=$CI_COMMIT_SHORT_SHA"
+    - . $HOME/.bashrc
+    - nvm use v18
+    - npm install
+    - echo "running npm run build"
+    - CI_COMMIT_SHORT_SHA=$CI_COMMIT_SHORT_SHA npm run build
+    - echo "Deploy to production server"
+    - PORT=40256 docker-compose -c production -f docker-compose.yml  up -d --build
+
+  environment:
+    name: production
+    url: https://signup.mozosuite.com
+

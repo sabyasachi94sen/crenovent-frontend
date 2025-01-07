@@ -1,0 +1,761 @@
+@import './mixins';
+@import './fonts';
+@import './variables';
+@import './override';
+@import './iconmoon.scss';
+@import './setupCol/setup.scss';
+@import './signup/index.scss';
+@import './dashboard/index.scss';
+@import './header.scss';
+
+// Define font weights
+$font-weight-thin: 100;
+$font-weight-extralight: 200;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+$font-weight-extrabold: 800;
+$font-weight-black: 900;
+
+// Define font family
+$font-family-thin: 'Inter Thin', sans-serif;
+$font-family-extralight: 'Inter Extra Light', sans-serif;
+$font-family-light: 'Inter Light', sans-serif;
+$font-family-regular: 'Inter Regular', sans-serif;
+$font-family-medium: 'Inter Medium', sans-serif;
+$font-family-semibold: 'Inter Semibold', sans-serif;
+$font-family-bold: 'Inter Bold', sans-serif;
+$font-family-extrabold: 'Inter Extra Bold', sans-serif;
+$font-family-black: 'Inter Black', sans-serif;
+
+body {
+  font-family: $font-family-regular;
+  padding: 0;
+  margin: 0;
+}
+
+.erp {
+  &-header {
+    background-color: var(--white) !important;
+    position: sticky;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    height: fit-content !important;
+
+    span {
+      cursor: pointer;
+    }
+  }
+
+  &-content {
+    width: 100%;
+    padding: px-to-rem(20px) !important;
+  }
+}
+
+//Usage
+.h-10 {
+  &.thin {
+    @include text-style(10px, 12px, $font-weight-thin, $font-family-thin);
+  }
+
+  &.extralight {
+    @include text-style(
+      10px,
+      12px,
+      $font-weight-extralight,
+      $font-family-extralight
+    );
+  }
+
+  &.light {
+    @include text-style(10px, 12px, $font-weight-light, $font-family-light);
+  }
+
+  &.regular {
+    @include text-style(10px, 12px, $font-weight-regular, $font-family-regular);
+  }
+
+  &.medium {
+    @include text-style(10px, 12px, $font-weight-medium, $font-family-medium);
+  }
+
+  &.semibold {
+    @include text-style(
+      10px,
+      12px,
+      $font-weight-semibold,
+      $font-family-semibold
+    );
+  }
+
+  &.bold {
+    @include text-style(10px, 12px, $font-weight-bold, $font-family-bold);
+  }
+
+  &.extrabold {
+    @include text-style(
+      10px,
+      12px,
+      $font-weight-extrabold,
+      $font-family-extrabold
+    );
+  }
+
+  &.black {
+    @include text-style(10px, 12px, $font-weight-black, $font-family-black);
+  }
+}
+
+.h-11 {
+  &.thin {
+    @include text-style(11px, 18px, $font-weight-thin, $font-family-thin);
+  }
+
+  &.extralight {
+    @include text-style(
+      11px,
+      18px,
+      $font-weight-extralight,
+      $font-family-extralight
+    );
+  }
+
+  &.light {
+    @include text-style(11px, 18px, $font-weight-light, $font-family-light);
+  }
+
+  &.regular {
+    @include text-style(11px, 18px, $font-weight-regular, $font-family-regular);
+  }
+
+  &.medium {
+    @include text-style(11px, 18px, $font-weight-medium, $font-family-medium);
+  }
+
+  &.semibold {
+    @include text-style(
+      11px,
+      18px,
+      $font-weight-semibold,
+      $font-family-semibold
+    );
+  }
+
+  &.bold {
+    @include text-style(11px, 18px, $font-weight-bold, $font-family-bold);
+  }
+
+  &.extrabold {
+    @include text-style(
+      11px,
+      18px,
+      $font-weight-extrabold,
+      $font-family-extrabold
+    );
+  }
+
+  &.black {
+    @include text-style(11px, 18px, $font-weight-black, $font-family-black);
+  }
+}
+
+.h-12 {
+  &.thin {
+    @include text-style(12px, 18px, $font-weight-thin, $font-family-thin);
+  }
+
+  &.extralight {
+    @include text-style(
+      12px,
+      18px,
+      $font-weight-extralight,
+      $font-family-extralight
+    );
+  }
+
+  &.light {
+    @include text-style(12px, 18px, $font-weight-light, $font-family-light);
+  }
+
+  &.regular {
+    @include text-style(12px, 18px, $font-weight-regular, $font-family-regular);
+  }
+
+  &.medium {
+    @include text-style(12px, 18px, $font-weight-medium, $font-family-medium);
+  }
+
+  &.semibold {
+    @include text-style(
+      12px,
+      18px,
+      $font-weight-semibold,
+      $font-family-semibold
+    );
+  }
+
+  &.bold {
+    @include text-style(12px, 18px, $font-weight-bold, $font-family-bold);
+  }
+
+  &.extrabold {
+    @include text-style(
+      12px,
+      18px,
+      $font-weight-extrabold,
+      $font-family-extrabold
+    );
+  }
+
+  &.black {
+    @include text-style(12px, 18px, $font-weight-black, $font-family-black);
+  }
+}
+
+.h-13 {
+  &.thin {
+    @include text-style(13px, 16px, $font-weight-thin, $font-family-thin);
+  }
+
+  &.extralight {
+    @include text-style(
+      13px,
+      16px,
+      $font-weight-extralight,
+      $font-family-extralight
+    );
+  }
+
+  &.light {
+    @include text-style(13px, 16px, $font-weight-light, $font-family-light);
+  }
+
+  &.regular {
+    @include text-style(13px, 16px, $font-weight-regular, $font-family-regular);
+  }
+
+  &.medium {
+    @include text-style(13px, 16px, $font-weight-medium, $font-family-medium);
+  }
+
+  &.semibold {
+    @include text-style(
+      13px,
+      16px,
+      $font-weight-semibold,
+      $font-family-semibold
+    );
+  }
+
+  &.bold {
+    @include text-style(13px, 16px, $font-weight-bold, $font-family-bold);
+  }
+
+  &.extrabold {
+    @include text-style(
+      13px,
+      16px,
+      $font-weight-extrabold,
+      $font-family-extrabold
+    );
+  }
+
+  &.black {
+    @include text-style(13px, 16px, $font-weight-black, $font-family-black);
+  }
+}
+
+.h-14 {
+  &.thin {
+    @include text-style(14px, 18px, $font-weight-thin, $font-family-thin);
+  }
+
+  &.extralight {
+    @include text-style(
+      14px,
+      18px,
+      $font-weight-extralight,
+      $font-family-extralight
+    );
+  }
+
+  &.light {
+    @include text-style(14px, 18px, $font-weight-light, $font-family-light);
+  }
+
+  &.regular {
+    @include text-style(14px, 18px, $font-weight-regular, $font-family-regular);
+  }
+
+  &.medium {
+    @include text-style(14px, 18px, $font-weight-medium, $font-family-medium);
+  }
+
+  &.semibold {
+    @include text-style(
+      14px,
+      18px,
+      $font-weight-semibold,
+      $font-family-semibold
+    );
+  }
+
+  &.bold {
+    @include text-style(14px, 18px, $font-weight-bold, $font-family-bold);
+  }
+
+  &.extrabold {
+    @include text-style(
+      14px,
+      18spx,
+      $font-weight-extrabold,
+      $font-family-extrabold
+    );
+  }
+
+  &.black {
+    @include text-style(14px, 18px, $font-weight-black, $font-family-black);
+  }
+}
+
+.h-18 {
+  &.thin {
+    @include text-style(18px, 20px, $font-weight-thin, $font-family-thin);
+  }
+
+  &.extralight {
+    @include text-style(
+      18px,
+      20px,
+      $font-weight-extralight,
+      $font-family-extralight
+    );
+  }
+
+  &.light {
+    @include text-style(18px, 20px, $font-weight-light, $font-family-light);
+  }
+
+  &.regular {
+    @include text-style(18px, 20px, $font-weight-regular, $font-family-regular);
+  }
+
+  &.medium {
+    @include text-style(18px, 20px, $font-weight-medium, $font-family-medium);
+  }
+
+  &.semibold {
+    @include text-style(
+      18px,
+      20px,
+      $font-weight-semibold,
+      $font-family-semibold
+    );
+  }
+
+  &.bold {
+    @include text-style(18px, 20px, $font-weight-bold, $font-family-bold);
+  }
+
+  &.extrabold {
+    @include text-style(
+      18px,
+      20px,
+      $font-weight-extrabold,
+      $font-family-extrabold
+    );
+  }
+
+  &.black {
+    @include text-style(18px, 20px, $font-weight-black, $font-family-black);
+  }
+}
+
+.h-22 {
+  &.thin {
+    @include text-style(22px, 40px, $font-weight-thin, $font-family-thin);
+  }
+
+  &.extralight {
+    @include text-style(
+      22px,
+      40px,
+      $font-weight-extralight,
+      $font-family-extralight
+    );
+  }
+
+  &.light {
+    @include text-style(22px, 40px, $font-weight-light, $font-family-light);
+  }
+
+  &.regular {
+    @include text-style(22px, 40px, $font-weight-regular, $font-family-regular);
+  }
+
+  &.medium {
+    @include text-style(22px, 40px, $font-weight-medium, $font-family-medium);
+  }
+
+  &.semibold {
+    @include text-style(
+      22px,
+      40px,
+      $font-weight-semibold,
+      $font-family-semibold
+    );
+  }
+
+  &.bold {
+    @include text-style(22px, 40px, $font-weight-bold, $font-family-bold);
+  }
+
+  &.extrabold {
+    @include text-style(
+      22px,
+      40px,
+      $font-weight-extrabold,
+      $font-family-extrabold
+    );
+  }
+
+  &.black {
+    @include text-style(22px, 40px, $font-weight-black, $font-family-black);
+  }
+}
+
+.h-26 {
+  &.thin {
+    @include text-style(26px, 40px, $font-weight-thin, $font-family-thin);
+  }
+
+  &.extralight {
+    @include text-style(
+      26px,
+      40px,
+      $font-weight-extralight,
+      $font-family-extralight
+    );
+  }
+
+  &.light {
+    @include text-style(26px, 40px, $font-weight-light, $font-family-light);
+  }
+
+  &.regular {
+    @include text-style(26px, 40px, $font-weight-regular, $font-family-regular);
+  }
+
+  &.medium {
+    @include text-style(26px, 40px, $font-weight-medium, $font-family-medium);
+  }
+
+  &.semibold {
+    @include text-style(
+      26px,
+      40px,
+      $font-weight-semibold,
+      $font-family-semibold
+    );
+  }
+
+  &.bold {
+    @include text-style(26px, 40px, $font-weight-bold, $font-family-bold);
+  }
+
+  &.extrabold {
+    @include text-style(
+      26px,
+      40px,
+      $font-weight-extrabold,
+      $font-family-extrabold
+    );
+  }
+
+  &.black {
+    @include text-style(26px, 40px, $font-weight-black, $font-family-black);
+  }
+}
+
+.h-46 {
+  &.thin {
+    @include text-style(46px, 60px, $font-weight-thin, $font-family-thin);
+  }
+
+  &.extralight {
+    @include text-style(
+      46px,
+      60px,
+      $font-weight-extralight,
+      $font-family-extralight
+    );
+  }
+
+  &.light {
+    @include text-style(46px, 60px, $font-weight-light, $font-family-light);
+  }
+
+  &.regular {
+    @include text-style(46px, 60px, $font-weight-regular, $font-family-regular);
+  }
+
+  &.medium {
+    @include text-style(46px, 60px, $font-weight-medium, $font-family-medium);
+  }
+
+  &.semibold {
+    @include text-style(
+      46px,
+      60px,
+      $font-weight-semibold,
+      $font-family-semibold
+    );
+  }
+
+  &.bold {
+    @include text-style(46px, 60px, $font-weight-bold, $font-family-bold);
+  }
+
+  &.extrabold {
+    @include text-style(
+      46px,
+      60px,
+      $font-weight-extrabold,
+      $font-family-extrabold
+    );
+  }
+
+  &.black {
+    @include text-style(46px, 60px, $font-weight-black, $font-family-black);
+  }
+}
+
+.h-31 {
+  &.thin {
+    @include text-style(31px, 37px, $font-weight-thin, $font-family-thin);
+  }
+
+  &.extralight {
+    @include text-style(
+      31px,
+      37px,
+      $font-weight-extralight,
+      $font-family-extralight
+    );
+  }
+
+  &.light {
+    @include text-style(31px, 37px, $font-weight-light, $font-family-light);
+  }
+
+  &.regular {
+    @include text-style(31px, 37px, $font-weight-regular, $font-family-regular);
+  }
+
+  &.medium {
+    @include text-style(31px, 37px, $font-weight-medium, $font-family-medium);
+  }
+
+  &.semibold {
+    @include text-style(
+      31px,
+      37px,
+      $font-weight-semibold,
+      $font-family-semibold
+    );
+  }
+
+  &.bold {
+    @include text-style(31px, 37px, $font-weight-bold, $font-family-bold);
+  }
+
+  &.extrabold {
+    @include text-style(
+      31px,
+      37px,
+      $font-weight-extrabold,
+      $font-family-extrabold
+    );
+  }
+
+  &.black {
+    @include text-style(31px, 37px, $font-weight-black, $font-family-black);
+  }
+}
+
+.h-80 {
+  &.thin {
+    @include text-style(80px, 80px, $font-weight-thin, $font-family-thin);
+  }
+
+  &.extralight {
+    @include text-style(
+      80px,
+      80px,
+      $font-weight-extralight,
+      $font-family-extralight
+    );
+  }
+
+  &.light {
+    @include text-style(80px, 80px, $font-weight-light, $font-family-light);
+  }
+
+  &.regular {
+    @include text-style(80px, 80px, $font-weight-regular, $font-family-regular);
+  }
+
+  &.medium {
+    @include text-style(80px, 80px, $font-weight-medium, $font-family-medium);
+  }
+
+  &.semibold {
+    @include text-style(
+      80px,
+      80px,
+      $font-weight-semibold,
+      $font-family-semibold
+    );
+  }
+
+  &.bold {
+    @include text-style(80px, 80px, $font-weight-bold, $font-family-bold);
+  }
+
+  &.extrabold {
+    @include text-style(
+      80px,
+      80px,
+      $font-weight-extrabold,
+      $font-family-extrabold
+    );
+  }
+
+  &.black {
+    @include text-style(80px, 80px, $font-weight-black, $font-family-black);
+  }
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-0 {
+  width: 0px !important;
+}
+
+.custom-btn {
+  display: flex;
+  text-wrap: wrap;
+  word-break: break-word;
+  align-items: center;
+  justify-content: center;
+  column-gap: px-to-rem(10px);
+  padding: px-to-rem(15px 8px 15px 8px);
+  color: var(--primary-black);
+  text-decoration: none;
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  border: none;
+  outline: none;
+  box-shadow: none;
+  border-radius: px-to-rem(8px);
+  @include text-style(10px, 0px, $font-weight-medium, $font-family-medium);
+  cursor: pointer;
+
+  .cursor-pointer {
+    cursor: pointer;
+  }
+}
+
+.btn--wrapper {
+  .customBtn {
+    padding: px-to-rem(14px 36px) !important;
+    height: auto !important;
+    font-family: 'Inter';
+    font-weight: bold;
+    border-radius: px-to-rem(8px);
+
+    span {
+      color: var(--white);
+    }
+
+    &--primaryBlack {
+      background-color: var(--primary-grey);
+      color: var(--white);
+
+      &:hover:not([disabled]) {
+        background-color: var(--white) !important;
+
+        span {
+          color: var(--primary-grey);
+        }
+
+        border-color: var(--primary-grey) !important;
+      }
+    }
+  }
+}
+
+.final__animation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__bar-1 {
+    position: relative;
+    display: block;
+    width: 85%;
+    height: fit-content;
+    border: px-to-rem(1px) solid var(--primary-black);
+    border-radius: px-to-rem(30px);
+
+    span {
+      position: relative;
+      display: block;
+      vertical-align: middle;
+      height: px-to-rem(7px);
+      border-radius: px-to-rem(10px 0px 0px 10px);
+      overflow: hidden;
+      background-size: 100%;
+      animation: progress-anim-1 10s infinite linear;
+    }
+    span:after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      content: '';
+      background-size: 100%;
+      background-color: var(--primary-red-pomegranate);
+      background-image: linear-gradient(
+        -45deg,
+        var(--primary-black) 25%,
+        var(--primary-black-light) 25%,
+        var(--primary-black-light) 50%,
+        var(--primary-black) 50%,
+        var(--primary-black) 75%,
+        var(--primary-black-light) 75%,
+        var(--primary-black-light)
+      );
+      background-size: px-to-rem(30px 30px);
+      animation: progress-anim-1-after 0.5s infinite linear;
+    }
+    @keyframes progress-anim-1-after {
+      0% {
+        background-position: 0 100%;
+      }
+      100% {
+        background-position: -30px 100%;
+      }
+    }
+  }
+}
+
+

@@ -1,0 +1,13 @@
+services:
+  mozosignup:
+    image: mozosignup:${CI_COMMIT_SHORT_SHA:-dev}
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    command: dumb-init node server.js
+    environment:
+      - HOST=0.0.0.0 
+      - NODE_ENV=production
+    ports:
+      - 0.0.0.0:$PORT:3000
+    restart: always

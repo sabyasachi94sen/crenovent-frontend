@@ -1,0 +1,107 @@
+$font-path: '/fonts/';
+
+$font-inter-thin: 'Inter-UI-Thin.ttf';
+$font-inter-extralight: 'Inter-UI-Extralight.ttf';
+$font-inter-light: 'Inter-UI-Light.ttf';
+$font-inter-regular: 'Inter-UI-Normal.ttf';
+$font-inter-medium: 'Inter-UI-Medium.ttf';
+$font-inter-semibold: 'Inter-UI-Semibold.ttf';
+$font-inter-bold: 'Inter-UI-Bold.ttf';
+$font-inter-extrabold: 'Inter-UI-Extrabold.ttf';
+$font-inter-black: 'Inter-UI-Black.ttf';
+
+
+$font-url-inter-thin: url('#{$font-path}#{$font-inter-thin}') format('truetype');
+$font-url-inter-extralight: url('#{$font-path}#{$font-inter-extralight}') format('truetype');
+$font-url-inter-light: url('#{$font-path}#{$font-inter-light}') format('truetype');
+$font-url-inter-regular: url('#{$font-path}#{$font-inter-regular}') format('truetype');
+$font-url-inter-medium: url('#{$font-path}#{$font-inter-medium}') format('truetype');
+$font-url-inter-semibold: url('#{$font-path}#{$font-inter-semibold}') format('truetype');
+$font-url-inter-bold: url('#{$font-path}#{$font-inter-bold}') format('truetype');
+$font-url-inter-extrabold: url('#{$font-path}#{$font-inter-extrabold}') format('truetype');
+$font-url-inter-black: url('#{$font-path}#{$font-inter-black}') format('truetype');
+
+
+@font-face {
+    font-family: 'Inter Thin';
+    src: local('Inter'),
+    #{$font-url-inter-thin};
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Inter Extra Light';
+    src: local('Inter'),
+    #{$font-url-inter-extralight};
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'Inter Light';
+    src: local('Inter'),
+    #{$font-url-inter-light};
+    font-weight: 300;
+    font-style: normal;
+  }
+
+
+@font-face {
+  font-family: 'Inter Regular';
+  src: local('Inter'),
+  #{$font-url-inter-regular};
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter  Medium';
+    src: local('Inter'),
+    #{$font-url-inter-medium};
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  
+
+
+
+@font-face {
+  font-family: 'Inter Semibold';
+  src: local('Inter'),
+  #{$font-url-inter-semibold};
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Inter bold';
+  src: local('Inter'),
+  #{$font-url-inter-bold};
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Inter Extra Bold';
+    src: local('Inter'),
+    #{$font-url-inter-extrabold};
+    font-weight: 800;
+    font-style: normal;
+  }
+
+
+  
+@font-face {
+    font-family: 'Inter black';
+    src: local('Inter'),
+    #{$font-url-inter-black};
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  

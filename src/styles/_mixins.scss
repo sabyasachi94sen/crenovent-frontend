@@ -1,0 +1,44 @@
+@mixin breakpoint($name) {
+    $width: map-get($breakpoints, $name);
+  
+    @media only screen and (min-width: $width) {
+      @content;
+    }
+  }
+
+  @mixin max-breakpoint($name) {
+    $width: map-get($breakpoints, $name);
+  
+    @media only screen and (max-width: $width) {
+      @content;
+    }
+  }
+  
+  // Mixin to convert pixel-based font size to rem
+  @mixin font-size($size) {
+    font-size: ($size / $base-font-size) * 1rem;
+  }
+  
+  // Mixin to convert pixel-based line height to rem
+  @mixin line-height($size) {
+    line-height: ($size / $base-line-height) * 1rem;
+  }
+  
+  // Mixin to reuse font size,line height & font weight
+  @mixin text-style($font-size, $line-height, $font-weight,$font-family) {
+    font-size: $font-size;
+    line-height: $line-height;
+    font-weight: $font-weight;
+    font-family: $font-family
+  }
+  
+  // Function to convert pixels to rems
+  @function px-to-rem($pxValues, $baseFontSize: 16px) {
+    $remValues: ();
+    @each $value in $pxValues {
+      $remValues: append($remValues, ($value / $baseFontSize) + rem);
+    }
+    @return $remValues;
+  }
+  
+  
