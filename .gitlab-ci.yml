@@ -10,7 +10,7 @@ build:
   only:
     - staging
   script:
-    - echo "Deploy mozosuite to staging server"
+    - echo "Deploy crenovent-frontend to staging server"
     - echo "running as $USER in $PWD HOME is $HOME"
     - . $HOME/.bashrc
     - nvm use v18

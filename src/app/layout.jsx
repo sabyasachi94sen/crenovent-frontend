@@ -1,5 +1,8 @@
-import { Geist, Geist_Mono } from "next/font/google";
+'use client';
+import React from "react";
+import PropTypes from "prop-types";
 import "./globals.css";
+
 
 
 export const metadata = {
@@ -16,3 +19,6 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+RootLayout.propTypes = {
+  children: PropTypes.node.isRequired, // Ensure children is a node and is required
+};
