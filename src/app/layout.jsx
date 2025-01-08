@@ -16,7 +16,9 @@ export default function RootLayout({ children }) {
         <AntdRegistry>
           <ErrorBoundary>
             <Navbar />
-            {children}
+            <div className='container-fluid'>
+                {children}
+            </div>
           </ErrorBoundary>
         </AntdRegistry>
       </body>

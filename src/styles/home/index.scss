@@ -1,0 +1,38 @@
+.scroll-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .scrolling-icons {
+    display: flex;
+    animation: scroll-left 30s linear infinite;
+  }
+  
+  .scrolling-icons img {
+    margin-right: 70px; /* Adjust spacing between icons */
+    height: 70px; /* Adjust icon size */
+  }
+  
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+
+  .problems-solved{
+    cursor: pointer;
+
+    img{
+        border-radius: 20px;
+        @include min-breakpoint('lg'){
+        margin-left: px-to-rem(30px);
+        }
+        
+
+    }
+  }

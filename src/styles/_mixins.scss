@@ -13,6 +13,15 @@
       @content;
     }
   }
+
+  @mixin min-breakpoint($name) {
+    $width: map-get($breakpoints, $name);
+  
+    @media only screen and (min-width: $width) {
+      @content;
+    }
+  }
+  
   
   // Mixin to convert pixel-based font size to rem
   @mixin font-size($size) {

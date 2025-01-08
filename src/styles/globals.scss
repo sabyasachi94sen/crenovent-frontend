@@ -4,6 +4,8 @@
 @import './override';
 @import './iconmoon.scss';
 @import './navbar/index.scss';
+@import './home/index.scss';
+
 
 // Define font weights
 $font-weight-thin: 100;
@@ -682,12 +684,22 @@ body {
   width: 0px !important;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 
 .custom-btn{
   min-width: px-to-rem(100px);
   max-width: 100%;
   box-sizing: border-box;
-  padding: px-to-rem(16px 0px);
+  padding: px-to-rem(16px 30px);
   color: var(--white);
   @include text-style(16px, 12px, $font-weight-regular, $font-family-regular);
   border-radius: px-to-rem(22px);
@@ -763,4 +775,34 @@ a{
   width: px-to-rem(16px);
   height: px-to-rem(16px);
   color: var(--primary-dark-blue);
+}
+
+.txt-danger{
+  color: var(--primary-red)
+}
+
+.txt-primary{
+  color: var(--primary-blue)
+}
+
+.txt-secondary{
+  color: var(--primary-grey)
+}
+
+
+
+.fade-in {
+  animation: fadeIn linear 0.5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30px)
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px)
+  }
 }

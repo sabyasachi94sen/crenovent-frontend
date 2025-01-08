@@ -1,12 +1,16 @@
 .navbar {
     background-color: var(--white);
     height: px-to-rem(80px) !important;
-    position: fixed;
+    position: sticky;
     z-index: 999;
     top: 0;
     box-shadow: rgba(149, 157, 165, 0.2) px-to-rem(0px 8px 24px);
 
     & .navbar-links {
+        @include max-breakpoint('lg'){
+            display: none !important;
+
+        }
         & .navbar-links-items {
             &:hover {
                 color: var(--primary-red);
