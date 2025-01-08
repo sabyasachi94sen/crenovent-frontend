@@ -1,25 +1,25 @@
 $font-path: '/fonts/';
 
-$font-inter-thin: 'Inter-UI-Thin.ttf';
-$font-inter-extralight: 'Inter-UI-Extralight.ttf';
-$font-inter-light: 'Inter-UI-Light.ttf';
-$font-inter-regular: 'Inter-UI-Normal.ttf';
-$font-inter-medium: 'Inter-UI-Medium.ttf';
-$font-inter-semibold: 'Inter-UI-Semibold.ttf';
-$font-inter-bold: 'Inter-UI-Bold.ttf';
-$font-inter-extrabold: 'Inter-UI-Extrabold.ttf';
-$font-inter-black: 'Inter-UI-Black.ttf';
+$font-inter-thin: 'Inter-UI-Thin.otf';
+$font-inter-extralight: 'Inter-UI-Extralight.otf';
+$font-inter-light: 'Inter-UI-Light.otf';
+$font-inter-regular: 'Inter-UI-Normal.otf';
+$font-inter-medium: 'Inter-UI-Medium.otf';
+$font-inter-semibold: 'Inter-UI-Semibold.otf';
+$font-inter-bold: 'Inter-UI-Bold.otf';
+$font-inter-extrabold: 'Inter-UI-Extrabold.otf';
+$font-inter-black: 'Inter-UI-Black.otf';
 
 
-$font-url-inter-thin: url('#{$font-path}#{$font-inter-thin}') format('truetype');
-$font-url-inter-extralight: url('#{$font-path}#{$font-inter-extralight}') format('truetype');
-$font-url-inter-light: url('#{$font-path}#{$font-inter-light}') format('truetype');
-$font-url-inter-regular: url('#{$font-path}#{$font-inter-regular}') format('truetype');
-$font-url-inter-medium: url('#{$font-path}#{$font-inter-medium}') format('truetype');
-$font-url-inter-semibold: url('#{$font-path}#{$font-inter-semibold}') format('truetype');
-$font-url-inter-bold: url('#{$font-path}#{$font-inter-bold}') format('truetype');
-$font-url-inter-extrabold: url('#{$font-path}#{$font-inter-extrabold}') format('truetype');
-$font-url-inter-black: url('#{$font-path}#{$font-inter-black}') format('truetype');
+$font-url-inter-thin: url('#{$font-path}#{$font-inter-thin}') format('opentype');
+$font-url-inter-extralight: url('#{$font-path}#{$font-inter-extralight}') format('opentype');
+$font-url-inter-light: url('#{$font-path}#{$font-inter-light}') format('opentype');
+$font-url-inter-regular: url('#{$font-path}#{$font-inter-regular}') format('opentype');
+$font-url-inter-medium: url('#{$font-path}#{$font-inter-medium}') format('opentype');
+$font-url-inter-semibold: url('#{$font-path}#{$font-inter-semibold}') format('opentype');
+$font-url-inter-bold: url('#{$font-path}#{$font-inter-bold}') format('opentype');
+$font-url-inter-extrabold: url('#{$font-path}#{$font-inter-extrabold}') format('opentype');
+$font-url-inter-black: url('#{$font-path}#{$font-inter-black}') format('opentype');
 
 
 @font-face {
