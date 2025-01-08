@@ -25,7 +25,7 @@ export const Navbar = () => {
                     <SvgIcon1 className={'svg-container'} />
                 </div>
             </div>
-            <div className="custom-btn custom-btn--danger">Book now</div>
+            <div className="custom-btn custom-btn--success">Book now</div>
         </div>
     )
 }

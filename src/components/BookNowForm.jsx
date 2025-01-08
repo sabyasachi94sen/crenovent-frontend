@@ -55,7 +55,7 @@ export const BookNowForm = () => {
                 </div>
             </div>
             <Form.Item>
-                <button type="primary" className='custom-btn custom-btn--danger'>
+                <button type="primary" className='custom-btn custom-btn--success'>
                     Register
                 </button>
             </Form.Item>

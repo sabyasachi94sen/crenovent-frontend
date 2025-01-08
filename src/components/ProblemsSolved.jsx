@@ -29,7 +29,7 @@ export const ProblemSolved = () => {
                         <Image width={'100%'} preview={false} src="https://nobelbiz.com/wp-content/uploads/elementor/thumbs/AI-Lead-Generation-Featured-Image-01-q98xpqk2i38rd1ckz7dve381wpem3p4keeh9ree60w.png" alt="" />
                         <p className="h-22 bold mt-5">Lead Generation and Qualification</p>
                         <p className="h-16 regular txt-secondary lh-lg">AI agents analyze customer data to identify and qualify potential leads, ensuring sales teams focus on high-potential prospects.</p>
-                        <p className="txt-danger h-12">Learn more <span>&#8594;</span></p>
+                        <p className="txt-success h-12">Learn more <span>&#8594;</span></p>
                     </div>
                 </div>
                 <div className="col-lg-4 px-5">
@@ -37,7 +37,7 @@ export const ProblemSolved = () => {
                         <Image width={'100%'} preview={false} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhFy_aDQ2kwmWmEzALUUOLyfYIpiq1QKY52w&s" alt="" />
                         <p className="h-22 bold mt-5">Sales Forecasting</p>
                         <p className="h-16 regular txt-secondary lh-lg">By analyzing historical data and market trends, AI agents provide accurate sales forecasts, aiding in strategic planning and resource allocation.</p>
-                        <p className="txt-danger h-12">Learn more <span>&#8594;</span></p>
+                        <p className="txt-success h-12">Learn more <span>&#8594;</span></p>
                     </div>
                 </div>
                 <div className="col-lg-4 px-5">
@@ -47,7 +47,7 @@ export const ProblemSolved = () => {
                         <p className="h-16 regular txt-secondary lh-lg">
                         AI automates routine tasks such as scheduling meetings, sending follow-up emails, and updating CRM systems, allowing sales representatives to focus on strategic activities.
                         </p>
-                        <p className="txt-danger h-12">Learn more <span>&#8594;</span></p>
+                        <p className="txt-success h-12">Learn more <span>&#8594;</span></p>
                     </div>
                 </div>
             </div>
