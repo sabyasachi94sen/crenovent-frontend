@@ -2,6 +2,9 @@
   /* Primary Colors */
   --primary-black: black;
   --white: #fff;
+  --primary-red: #e31c3d;
+  --primary-blue: #216fed;
+  --primary-dark-blue: #1b1e3e;
 
 
   /* Secondary Colors */
@@ -14,6 +17,10 @@
   /* Other Colors */
 
 }
+
+/* color */
+$primary-blue: #216fed;
+$primary-red: #e31c3d;
 
 // Define your base font size
 $base-font-size: 16px;

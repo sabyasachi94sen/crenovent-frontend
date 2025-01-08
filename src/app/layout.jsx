@@ -3,8 +3,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import ErrorBoundary from '../components/ErrorBoundary';
 import { AntdRegistry } from '@ant-design/nextjs-registry';
+import { Navbar } from '@/components/Navbar';
 // import NextTopLoader from 'nextjs-toploader';
-import './globals.css';
+import "bootstrap/dist/css/bootstrap.css";
+import '../styles/globals.scss';
+
 
 export default function RootLayout({ children }) {
   return (
@@ -12,6 +15,7 @@ export default function RootLayout({ children }) {
       <body>
         <AntdRegistry>
           <ErrorBoundary>
+            <Navbar />
             {children}
           </ErrorBoundary>
         </AntdRegistry>

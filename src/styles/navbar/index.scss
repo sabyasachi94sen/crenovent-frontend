@@ -1,0 +1,25 @@
+.navbar {
+    background-color: var(--white);
+    height: px-to-rem(80px) !important;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    box-shadow: rgba(149, 157, 165, 0.2) px-to-rem(0px 8px 24px);
+
+    & .navbar-links {
+        & .navbar-links-items {
+            &:hover {
+                color: var(--primary-red);
+
+                & .svg-container {
+                    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-180deg) skew(0deg, 0deg);
+                    transform-style: preserve-3d;
+                    transition: all 0.3s;
+                    color: var(--primary-red);
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+}
