@@ -5,7 +5,7 @@ import SvgIcon1 from "./icons/SvgIcon1";
 
 export const Navbar = () => {
     return (
-        <div className="navbar container-fluid px-5 d-flex justify-content-between align-items-center gap-5">
+        <div className="navbar container-fluid d-flex justify-content-between align-items-center gap-5">
             <Image preview={false} src="/icons/Logo.png" alt="crenovent-logo" width={80} />
             <div className="navbar-links d-flex justify-content-between gap-5">
                 <div className="d-flex align-items-center gap-2 navbar-links-items">
