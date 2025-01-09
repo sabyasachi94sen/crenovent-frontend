@@ -6,7 +6,7 @@ export const Footer = () => {
         <div className="container-fluid footer">
             <div className="footer-wrapper container pb-5">
                 <div className="row footer-list mx-auto">
-                    <div className="col-md-2">
+                    <div className="col-md-2 mb-4">
                         <div className="">
                             <img src='/icons/Logo.png' width={80} alt='logo' />
                             <div className="d-flex align-items-center gap-3 mt-4 flex-wrap">
