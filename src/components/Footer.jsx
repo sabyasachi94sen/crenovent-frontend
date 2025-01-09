@@ -29,7 +29,7 @@ export const Footer = () => {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="col-md-3 col-sm-6 p-3">
+                            <div className="col-md-3 col-sm-6">
                                 <div className="text-200 bold footer-title">Product</div>
                                 <div className="footer-list-container">
                                     <ul role="list" className="footer-list-wrapper">
@@ -42,7 +42,7 @@ export const Footer = () => {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="col-md-3 col-sm-6 p-3" >
+                            <div className="col-md-3 col-sm-6" >
                                 <div className="text-200 bold footer-title">Solutions</div>
                                 <div className="footer-list-container">
                                     <ul role="list" className="footer-list-wrapper">
@@ -57,7 +57,7 @@ export const Footer = () => {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="col-md-3 col-sm-6 p-3">
+                            <div className="col-md-3 col-sm-6">
                                 <div className="text-200 bold footer-title">Resources</div>
                                 <ul role="list" className="footer-list-wrapper">
                                     <li className="footer-list-item"><a href="#" className="footer-link">Blog</a></li>
@@ -76,7 +76,7 @@ export const Footer = () => {
                     </div>
                     {/*  */}
                 </div>
-                <div className="row mx-auto">
+                <div className="row mx-auto mt-5">
                     <div className="col-md-5 txt-secondary h-16 regular mb-4">
                     © 2025 Crenovent. All rights reserved.
                     </div>
