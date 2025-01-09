@@ -5,6 +5,8 @@
 @import './iconmoon.scss';
 @import './navbar/index.scss';
 @import './home/index.scss';
+@import './footer/index.scss';
+
 
 
 // Define font weights
@@ -808,6 +810,10 @@ a{
 
 .txt-success{
   color: var(--primary-forest-green)
+}
+
+.hover-danger:hover{
+  color: var(--primary-red)
 }
 
 

@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import ErrorBoundary from '../components/ErrorBoundary';
 import { AntdRegistry } from '@ant-design/nextjs-registry';
 import { Navbar } from '@/components/Navbar';
+import { Footer } from '@/components/Footer';
 // import NextTopLoader from 'nextjs-toploader';
 import "bootstrap/dist/css/bootstrap.css";
 import '../styles/globals.scss';
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
             <div className='container-fluid'>
                 {children}
             </div>
+            <Footer />
           </ErrorBoundary>
         </AntdRegistry>
       </body>

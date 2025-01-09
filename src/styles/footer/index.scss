@@ -1,0 +1,35 @@
+.footer{
+    // background: linear-gradient(to right, green, yellow, blue, purple);
+
+ &-wrapper {
+
+    font-weight: 300;
+
+    & .footer-list {
+        width: 90%;
+
+        & .footer-title {
+            @include text-style(16px, 18px, $font-weight-semibold, $font-family-semibold);
+            color: var(--primary-forest-green);
+        }
+
+        &-wrapper {
+
+            padding-left: 0 !important;
+
+
+            & li {
+                text-decoration: none;
+                list-style-type: none;
+                margin-top: px-to-rem(20px);
+                color: var(--primary-grey);
+                line-height: px-to-rem(20px);
+
+                &:hover {
+                    color: var(--primary-red);
+                }
+            }
+        }
+    }
+}
+}
