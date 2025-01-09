@@ -77,7 +77,7 @@ export const Footer = () => {
                     {/*  */}
                 </div>
                 <div className="row mx-auto">
-                    <div className="col-md-5 txt-secondary h-16 regular">
+                    <div className="col-md-5 txt-secondary h-16 regular mb-4">
                     © 2025 Crenovent. All rights reserved.
                     </div>
                     <div className="col-md-7">
