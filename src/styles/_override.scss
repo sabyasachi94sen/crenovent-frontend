@@ -9,3 +9,13 @@
         display: none !important;
     }
 }
+
+.ant-dropdown-menu {
+    margin-top: 20px !important;
+    border-radius: 20px;
+    & .ant-dropdown-menu-item{
+    &:hover{
+        background-color: white !important;
+    }
+    }
+  }

@@ -1,5 +1,5 @@
 import React from "react";
-import { ClusterOutlined, MergeOutlined, NodeIndexOutlined, ProductOutlined } from "@ant-design/icons";
+import { ClusterOutlined, HeartOutlined, MergeOutlined, NodeIndexOutlined, ProductOutlined, RobotOutlined, SearchOutlined } from "@ant-design/icons";
 
 export const data={
   "technologies": [
@@ -23,6 +23,25 @@ export const data={
       "label": <span className="h-16 semibold txt-success d-flex gap-3 align-items-center"><ProductOutlined className='fs-4' />Cloud Infrastructure & Microservice Architecture</span>,
       "children": <p className="h-16 regular txt-secondary lh-lg">Gain the computing power necessary to handle your exponentially growing customers in an ever changing business environment</p>
     }
+
+  ],
+
+  "Products":[
+    {
+      icon: <RobotOutlined className='h-26 regular' />,
+      heading: 'GTM Engineer',
+      description: 'Empowering Sales Teams with Cutting-Edge AI Solutions to Drive Business Growth and Innovation."'
+  },
+      {
+          icon: <SearchOutlined className='h-26 regular' />,
+          heading: 'Enterprise Search',
+          description: 'Find right information at the right time,every time'
+      },
+      {
+          icon: <HeartOutlined className='h-26 regular' />,
+          heading: 'Personalization',
+          description: 'Give your responses a WOW factor with easy personalisation'
+      },
 
   ]
 }
