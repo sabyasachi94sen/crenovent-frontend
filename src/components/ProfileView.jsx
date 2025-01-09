@@ -3,6 +3,7 @@
 import React, { useEffect } from "react";
 import { Image } from 'antd'
 import { BookNowForm } from "./BookNowForm";
+// import { Robot } from "@/app/common/Robot";
 
 export const ProfileView = () => {
 
@@ -38,7 +39,7 @@ export const ProfileView = () => {
                     Drive maximum potential of your business</p>
                 <BookNowForm />
                 <div className="mt-5 d-flex gap-5 flex-wrap">
-                    <div>
+                    <div className="position-relative">
                         <span className="h-46 semibold"><span id='calls'>0</span>Mn</span>
                         <div className="h-16 regular txt-secondary mt-1" >
                             Calls Handled by AI Agents/Month
@@ -50,6 +51,9 @@ export const ProfileView = () => {
                         Languages Supported
                         </div>
                     </div>
+                    {/* <div className="position-relative">
+                     <Robot />
+                    </div> */}
                 </div>
             </div>
             <div className="col-lg-6 profile-view">

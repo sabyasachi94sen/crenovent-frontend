@@ -36,3 +36,26 @@
 
     }
   }
+
+  .contact-solutions{
+    
+    &-services{
+     
+      &__items{
+        & .icon-wrapper{
+          width: px-to-rem(40px);
+          height: px-to-rem(40px);  
+        }
+        &:hover{
+          & .icon-wrapper{
+            background-color:  darken($primary-forest-green, 50%) !important ;
+          }
+        }
+      }
+
+    
+    
+    }
+
+ 
+  }
