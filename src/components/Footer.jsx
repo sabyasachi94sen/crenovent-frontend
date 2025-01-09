@@ -4,12 +4,12 @@ import React from "react";
 export const Footer = () => {
     return (
         <div className="container-fluid footer">
-            <div className="footer-wrapper container">
+            <div className="footer-wrapper container pb-5">
                 <div className="row footer-list mx-auto">
-                    <div className="col-md-2 p-5">
-                        <div className="p-3">
+                    <div className="col-md-2">
+                        <div className="">
                             <img src='/icons/Logo.png' width={80} alt='logo' />
-                            <div className="d-flex align-items-center gap-3 mt-4">
+                            <div className="d-flex align-items-center gap-3 mt-4 flex-wrap">
                                 <FacebookOutlined className='fs-5 cp' />
                                 <TwitterOutlined className='fs-5 cp' />
                                 <InstagramOutlined className='fs-5 cp' />
@@ -17,9 +17,9 @@ export const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-10 p-5">
+                    <div className="col-md-10">
                         <div className="row">
-                            <div className="col-md-3 col-sm-6 p-3">
+                            <div className="col-md-3 col-sm-6">
                                 <div className="text-200 bold footer-title">Platform</div>
                                 <div className="footer-list-container">
                                     <ul role="list" className="footer-list-wrapper">
@@ -76,11 +76,11 @@ export const Footer = () => {
                     </div>
                     {/*  */}
                 </div>
-                <div className="row mx-auto footer-list">
-                    <div className="col-md-5 p-5 txt-secondary h-16 regular">
+                <div className="row mx-auto">
+                    <div className="col-md-5 txt-secondary h-16 regular">
                     © 2025 Crenovent. All rights reserved.
                     </div>
-                    <div className="col-md-7 p-5">
+                    <div className="col-md-7">
                         <div className="d-flex gap-4 flex-wrap">
                             <div className="txt-secondary h-16 regular hover-danger cp">Contact Us</div>
                             <div className="txt-secondary h-16 regular hover-danger cp">Terms & Conditions</div>
