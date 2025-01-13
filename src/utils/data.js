@@ -71,7 +71,7 @@ export const data={
         tabs: [
           { 
             icon: <UserOutlined />,
-            label: "Autonomous agents",
+            label: "GTM agents",
             children:<TabItems 
             items={{
             tabReview: {
@@ -81,16 +81,16 @@ export const data={
               img_url: 'https://www.salesfocusinc.com/wp-content/uploads/2019/01/agent.jpg'
             },
             tabBlogs: {
-              title1:'How do Autonomous Agents Work?',
-              desc1: 'The Autonomous agents work by leveraging machine learning algorithms to analyze customer data, understand the context of customer queries, and provide insight-driven resolutions. They learn from the interaction history, customer data, and agent feedback to deliver personalized and empathetic support to customers. As they continue to learn, their effectiveness improves, leading to higher customer satisfaction and improved first contact resolution rates.',
+              title1:'How do GTM Engineer Work?',
+              desc1: 'The GTM Engineer work by leveraging machine learning algorithms to analyze customer data, understand the context of customer queries, and provide insight-driven resolutions. They learn from the interaction history, customer data, and agent feedback to deliver personalized and empathetic support to customers. As they continue to learn, their effectiveness improves, leading to higher customer satisfaction and improved first contact resolution rates.',
               img_url1: 'https://synergetics.ai/wp-content/uploads/2024/08/The-Evolution-of-AI-Introducing-Autonomous-AI-Agents-_3-3.jpg',
 
-              title2: 'Why do you Need Autonomous Agents?',
-              desc2: 'Autonomous agents provide businesses with valuable insights into contact center operations, enabling businesses to identify trends, optimize workflows, and continuously improve their operations. By leveraging these insights, businesses can drive efficiency, boost agent performance, and deliver exceptional customer experiences.',
+              title2: 'Why do you Need GTM Engineer?',
+              desc2: 'GTM Engineer provide businesses with valuable insights into contact center operations, enabling businesses to identify trends, optimize workflows, and continuously improve their operations. By leveraging these insights, businesses can drive efficiency, boost agent performance, and deliver exceptional customer experiences.',
               img_url2: 'https://shelf.io/wp-content/uploads/2024/10/image-9.png',
             },
              tabGraphs: {
-              title: 'Traditional Customer Service',
+              title: 'Traditional GTM Engineer Service',
               config : {
                data: [
                 { year: '1991', value: 3 },
