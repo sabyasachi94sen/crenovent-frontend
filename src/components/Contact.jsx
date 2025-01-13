@@ -19,7 +19,7 @@ export const ContactUs = () => {
                             </div>
                             <div className="information">
                                 <i className="fas fa-envelope"></i>
-                                <a href="mailto:">ks@crenovent.com</a>
+                                <a href="mailto:ks@crenovent.com">ks@crenovent.com</a>
                             </div>
                             <div className="information">
                                 <i className="fas fa-phone"></i>
