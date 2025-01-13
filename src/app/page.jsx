@@ -14,7 +14,7 @@ export default function Home() {
         <ProfileView />
       </div>
       <Brands />
-      <div className='container mb-5'>
+      <div className='container'>
         <ProblemSolved />
         <ContactSolutions />
         <Technology />

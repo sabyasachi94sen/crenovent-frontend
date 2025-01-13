@@ -16,6 +16,7 @@ export const Navbar = () => {
                         <p className="h-16 regular txt-success">AI Sales Agent</p>
                         <div className="menu-list">
                             {Products?.map((d, i) =>
+                            <Link key={i} href={d?.url}>
                                 <div key={`${d?.heading}-${i}`} className="menu-list-items p-3">
                                     <div className="w-100 d-flex align-items-start gap-4">
                                         <div className="txt-success">{d?.icon}</div>
@@ -24,7 +25,9 @@ export const Navbar = () => {
                                             <div className="txt-secondary  h-12 regular mt-2">{d?.description}</div>
                                         </div>
                                     </div>
-                                </div>)}
+                                </div>
+                                </Link>
+                                )}
                         </div>
                     </div>
                 </div>
@@ -33,7 +36,7 @@ export const Navbar = () => {
     ];
     return (
         <div className="navbar container-fluid d-flex justify-content-between align-items-center gap-5">
-            <Image preview={false} src="/icons/Logo.png" alt="crenovent-logo" width={80} />
+            <Link href="/" className="cp"><Image preview={false} src="/icons/Logo.png" alt="crenovent-logo" width={80} /></Link>
             <div className="navbar-links d-flex justify-content-between gap-5">
             <Dropdown placement="bottom" menu={{ items }}>
                 <div className="d-flex align-items-center gap-2 navbar-links-items">

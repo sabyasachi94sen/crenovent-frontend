@@ -19,3 +19,14 @@
     }
     }
   }
+
+  .ant-tabs-tab{
+    color: var(--primary-forest-green) !important;
+    @include text-style(18px, 18px, $font-weight-semibold, $font-family-semibold)
+  }
+
+
+  .ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: darken($primary-forest-green, 15%) !important;
+    text-shadow: 0 0 0.25px currentcolor;
+  }
