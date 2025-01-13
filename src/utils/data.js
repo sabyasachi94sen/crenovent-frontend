@@ -126,7 +126,7 @@ export const data={
           }}
           
           /> },
-          { icon: <RobotOutlined />, label: "RPA",children:<ErrorPage /> },
+          // { icon: <RobotOutlined />, label: "RPA",children:<ErrorPage /> },
           { icon: <LineChartOutlined />, label: 'Intelligent Routing Engine',children: <ErrorPage /> },
           { icon: <BarChartOutlined />, label: 'Real Time Data Analytics',children: <ErrorPage /> }]
       }
