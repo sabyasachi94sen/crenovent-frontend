@@ -1,5 +1,5 @@
 import React from "react";
-import { BarChartOutlined, ClusterOutlined, HeartOutlined, LineChartOutlined, MergeOutlined, NodeIndexOutlined, ProductOutlined, RobotOutlined, SearchOutlined, UserOutlined } from "@ant-design/icons";
+import { AudioOutlined, BarChartOutlined, ClusterOutlined, HeartOutlined, LineChartOutlined, MergeOutlined, NodeIndexOutlined, ProductOutlined, RobotOutlined, UserOutlined } from "@ant-design/icons";
 import { TabItems } from "@/components/TabItems";
 
 
@@ -36,10 +36,10 @@ export const data={
       description: 'Empowering Sales Teams with Cutting-Edge AI Solutions to Drive Business Growth and Innovation."'
   },
       {
-          icon: <SearchOutlined className='h-26 regular' />,
-          heading: 'Enterprise Search',
-          url: '/',
-          description: 'Find right information at the right time,every time'
+          icon: <AudioOutlined className='h-26 regular' />,
+          heading: 'RPA',
+          url: '/products/rpa',
+          description: 'Efficient amplified through automation'
       },
       {
           icon: <HeartOutlined className='h-26 regular' />,
@@ -68,7 +68,7 @@ export const data={
             tabReview: {
               title: 'The Backbone of GTM Automation',
               desc: 'Unlock new levels of efficiency and personalization with our intelligent Autonomous Agents',
-              btnTitle: 'See GTM Engineer in actio',
+              btnTitle: 'See GTM Engineer in action',
               img_url: 'https://www.salesfocusinc.com/wp-content/uploads/2019/01/agent.jpg'
             },
             tabBlogs: {
@@ -120,6 +120,80 @@ export const data={
           { icon: <RobotOutlined />, label: "RPA",children: 'No data found!' },
           { icon: <LineChartOutlined />, label: 'Intelligent Routing Engine',children: 'No data found!' },
           { icon: <BarChartOutlined />, label: 'Real Time Data Analytics',children: 'No data found!' }]
+      }
+    }
+
+    ,
+    "rpa": {
+      heroReview: {
+        title: 'RPA',
+        desc: 'Experience the power of RPA with our intelligent Autonomous Agents, automate repetitive tasks with RPA, ensure seamless customer connections with our Intelligent Routing Engine, and gain actionable insights in real-time with our robust analytics capabilities.',
+        btnTitle: 'Schedule a free consultation Now',
+        img_url: 'https://nix-united.com/wp-content/uploads/2019/10/1_3.jpg'
+      },
+
+      heroBlogs: {
+        tabs: [
+          { 
+            icon: <UserOutlined />,
+            label: "Ui.Vision RPA",
+            children:<TabItems 
+            items={{
+            tabReview: {
+              title: 'Ui.Vision RPA',
+              desc: 'Ui.Vision RPA is a cross-platform desktop automation tool that utilizes image and text recognition for automating tasks. It supports running multiple automation scripts simultaneously across different tabs or windows. For instance, you can execute two automation tasks in separate browser tabs by using different Chrome profiles, each running an instance of the Ui.Vision extension',
+              btnTitle: 'See RPA in action',
+              img_url: 'https://img.freepik.com/premium-vector/rpa-robotic-process-automation-concept-artificial-intelligence-future-technology_108231-1252.jpg'
+            },
+            tabBlogs: {
+              title1:'Automation Anywhere',
+              desc1: 'Automation Anywhere is a leading RPA platform that offers a comprehensive suite of tools for automating business processes. While it provides a user-friendly interface for designing and managing automation workflows, the specific implementation of tabbed navigation within the platform may vary. It"s advisable to consult the official documentation or support resources for detailed guidance on utilizing tabbed interfaces in Automation Anywhere',
+              img_url1: 'https://media.licdn.com/dms/image/v2/D5612AQG8KD5Wxzuzaw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1709059000821?e=2147483647&v=beta&t=O_dWs0mQpARuu967eoNwwCuRgv-I6HiozbrCGXeLJOQ',
+
+              title2: 'Pega RPA',
+              desc2: 'Pega RPA offers unattended automation bots designed to integrate with legacy systems and facilitate digital transformation. The platform emphasizes optimizing robot resources through features like auto-balancing. While Pega RPA provides robust automation capabilities, the implementation of tabbed navigation within its interface may differ. For specific details on utilizing tabbed interfaces in Pega RPA, refer to their official resources.',
+              img_url2: 'https://static.webuters.com/2022/05/Rpa-companies.png',
+            },
+             tabGraphs: {
+              title: 'Traditional RPA Service',
+              config : {
+               data: [
+                { year: '1991', value: 8 },
+                { year: '1992', value: 7 },
+                { year: '1993', value: 3.5 },
+                { year: '1994', value: 4 },
+                { year: '1995', value: 8 },
+                { year: '1996', value: 6 },
+                { year: '1997', value: 7 },
+                { year: '1998', value: 9 },
+                { year: '1999', value: 8 },
+              ]
+              ,
+               title: {
+                   visible: true,
+                   text : 'Traditional RPA Service' , 
+                 },
+                 point: {
+                   visible:true, 
+                   size: 5,
+                   shape: 'diamond',
+                   style: {
+                     fill: 'white',
+                     stroke: '#2593fc',
+                     lineWidth: 2,
+                   },
+                 },
+               xField: 'year',
+               yField: 'value',
+             }
+
+            }
+          }}
+          
+          /> },
+          { icon: <RobotOutlined />, label: "Autonomous RPA",children: 'No data found!' },
+          { icon: <LineChartOutlined />, label: 'Intelligent RPA Engine',children: 'No data found!' },
+          { icon: <BarChartOutlined />, label: 'Real Time RPA Analytics',children: 'No data found!' }]
       }
     }
       

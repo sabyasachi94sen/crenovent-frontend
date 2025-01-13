@@ -23,7 +23,7 @@ export const ProductItems = ({items}) => {
                 </div>
                 <div className='col-lg-6'>
                     <Image 
-                     height={'100%'} 
+                     height={'500px'} 
                      width={'100%'} 
                      style={{ objectFit: 'cover' }}
                      className="rounded" 
