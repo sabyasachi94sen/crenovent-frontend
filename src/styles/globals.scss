@@ -37,7 +37,7 @@ body {
   margin: 0;
   width: 100%;
   min-height: 100vh;
-  height:100%;
+  height: 100%;
 }
 
 
@@ -48,12 +48,10 @@ body {
   }
 
   &.extralight {
-    @include text-style(
-      10px,
+    @include text-style(10px,
       12px,
       $font-weight-extralight,
-      $font-family-extralight
-    );
+      $font-family-extralight );
   }
 
   &.light {
@@ -69,12 +67,10 @@ body {
   }
 
   &.semibold {
-    @include text-style(
-      10px,
+    @include text-style(10px,
       12px,
       $font-weight-semibold,
-      $font-family-semibold
-    );
+      $font-family-semibold );
   }
 
   &.bold {
@@ -82,12 +78,10 @@ body {
   }
 
   &.extrabold {
-    @include text-style(
-      10px,
+    @include text-style(10px,
       12px,
       $font-weight-extrabold,
-      $font-family-extrabold
-    );
+      $font-family-extrabold );
   }
 
   &.black {
@@ -101,12 +95,10 @@ body {
   }
 
   &.extralight {
-    @include text-style(
-      11px,
+    @include text-style(11px,
       18px,
       $font-weight-extralight,
-      $font-family-extralight
-    );
+      $font-family-extralight );
   }
 
   &.light {
@@ -122,12 +114,10 @@ body {
   }
 
   &.semibold {
-    @include text-style(
-      11px,
+    @include text-style(11px,
       18px,
       $font-weight-semibold,
-      $font-family-semibold
-    );
+      $font-family-semibold );
   }
 
   &.bold {
@@ -135,12 +125,10 @@ body {
   }
 
   &.extrabold {
-    @include text-style(
-      11px,
+    @include text-style(11px,
       18px,
       $font-weight-extrabold,
-      $font-family-extrabold
-    );
+      $font-family-extrabold );
   }
 
   &.black {
@@ -154,12 +142,10 @@ body {
   }
 
   &.extralight {
-    @include text-style(
-      12px,
+    @include text-style(12px,
       18px,
       $font-weight-extralight,
-      $font-family-extralight
-    );
+      $font-family-extralight );
   }
 
   &.light {
@@ -175,12 +161,10 @@ body {
   }
 
   &.semibold {
-    @include text-style(
-      12px,
+    @include text-style(12px,
       18px,
       $font-weight-semibold,
-      $font-family-semibold
-    );
+      $font-family-semibold );
   }
 
   &.bold {
@@ -188,12 +172,10 @@ body {
   }
 
   &.extrabold {
-    @include text-style(
-      12px,
+    @include text-style(12px,
       18px,
       $font-weight-extrabold,
-      $font-family-extrabold
-    );
+      $font-family-extrabold );
   }
 
   &.black {
@@ -207,12 +189,10 @@ body {
   }
 
   &.extralight {
-    @include text-style(
-      13px,
+    @include text-style(13px,
       16px,
       $font-weight-extralight,
-      $font-family-extralight
-    );
+      $font-family-extralight );
   }
 
   &.light {
@@ -228,12 +208,10 @@ body {
   }
 
   &.semibold {
-    @include text-style(
-      13px,
+    @include text-style(13px,
       16px,
       $font-weight-semibold,
-      $font-family-semibold
-    );
+      $font-family-semibold );
   }
 
   &.bold {
@@ -241,12 +219,10 @@ body {
   }
 
   &.extrabold {
-    @include text-style(
-      13px,
+    @include text-style(13px,
       16px,
       $font-weight-extrabold,
-      $font-family-extrabold
-    );
+      $font-family-extrabold );
   }
 
   &.black {
@@ -260,12 +236,10 @@ body {
   }
 
   &.extralight {
-    @include text-style(
-      14px,
+    @include text-style(14px,
       18px,
       $font-weight-extralight,
-      $font-family-extralight
-    );
+      $font-family-extralight );
   }
 
   &.light {
@@ -281,12 +255,10 @@ body {
   }
 
   &.semibold {
-    @include text-style(
-      14px,
+    @include text-style(14px,
       18px,
       $font-weight-semibold,
-      $font-family-semibold
-    );
+      $font-family-semibold );
   }
 
   &.bold {
@@ -294,12 +266,10 @@ body {
   }
 
   &.extrabold {
-    @include text-style(
-      14px,
+    @include text-style(14px,
       18spx,
       $font-weight-extrabold,
-      $font-family-extrabold
-    );
+      $font-family-extrabold );
   }
 
   &.black {
@@ -313,12 +283,10 @@ body {
   }
 
   &.extralight {
-    @include text-style(
-      16px,
+    @include text-style(16px,
       18px,
       $font-weight-extralight,
-      $font-family-extralight
-    );
+      $font-family-extralight );
   }
 
   &.light {
@@ -334,12 +302,10 @@ body {
   }
 
   &.semibold {
-    @include text-style(
-      16px,
+    @include text-style(16px,
       18px,
       $font-weight-semibold,
-      $font-family-semibold
-    );
+      $font-family-semibold );
   }
 
   &.bold {
@@ -347,12 +313,10 @@ body {
   }
 
   &.extrabold {
-    @include text-style(
-      16px,
+    @include text-style(16px,
       18spx,
       $font-weight-extrabold,
-      $font-family-extrabold
-    );
+      $font-family-extrabold );
   }
 
   &.black {
@@ -366,12 +330,10 @@ body {
   }
 
   &.extralight {
-    @include text-style(
-      18px,
+    @include text-style(18px,
       20px,
       $font-weight-extralight,
-      $font-family-extralight
-    );
+      $font-family-extralight );
   }
 
   &.light {
@@ -387,12 +349,10 @@ body {
   }
 
   &.semibold {
-    @include text-style(
-      18px,
+    @include text-style(18px,
       20px,
       $font-weight-semibold,
-      $font-family-semibold
-    );
+      $font-family-semibold );
   }
 
   &.bold {
@@ -400,12 +360,10 @@ body {
   }
 
   &.extrabold {
-    @include text-style(
-      18px,
+    @include text-style(18px,
       20px,
       $font-weight-extrabold,
-      $font-family-extrabold
-    );
+      $font-family-extrabold );
   }
 
   &.black {
@@ -419,12 +377,10 @@ body {
   }
 
   &.extralight {
-    @include text-style(
-      22px,
+    @include text-style(22px,
       40px,
       $font-weight-extralight,
-      $font-family-extralight
-    );
+      $font-family-extralight );
   }
 
   &.light {
@@ -440,12 +396,10 @@ body {
   }
 
   &.semibold {
-    @include text-style(
-      22px,
+    @include text-style(22px,
       40px,
       $font-weight-semibold,
-      $font-family-semibold
-    );
+      $font-family-semibold );
   }
 
   &.bold {
@@ -453,12 +407,10 @@ body {
   }
 
   &.extrabold {
-    @include text-style(
-      22px,
+    @include text-style(22px,
       40px,
       $font-weight-extrabold,
-      $font-family-extrabold
-    );
+      $font-family-extrabold );
   }
 
   &.black {
@@ -472,12 +424,10 @@ body {
   }
 
   &.extralight {
-    @include text-style(
-      26px,
+    @include text-style(26px,
       40px,
       $font-weight-extralight,
-      $font-family-extralight
-    );
+      $font-family-extralight );
   }
 
   &.light {
@@ -493,12 +443,10 @@ body {
   }
 
   &.semibold {
-    @include text-style(
-      26px,
+    @include text-style(26px,
       40px,
       $font-weight-semibold,
-      $font-family-semibold
-    );
+      $font-family-semibold );
   }
 
   &.bold {
@@ -506,12 +454,10 @@ body {
   }
 
   &.extrabold {
-    @include text-style(
-      26px,
+    @include text-style(26px,
       40px,
       $font-weight-extrabold,
-      $font-family-extrabold
-    );
+      $font-family-extrabold );
   }
 
   &.black {
@@ -525,12 +471,10 @@ body {
   }
 
   &.extralight {
-    @include text-style(
-      46px,
+    @include text-style(46px,
       60px,
       $font-weight-extralight,
-      $font-family-extralight
-    );
+      $font-family-extralight );
   }
 
   &.light {
@@ -546,12 +490,10 @@ body {
   }
 
   &.semibold {
-    @include text-style(
-      46px,
+    @include text-style(46px,
       60px,
       $font-weight-semibold,
-      $font-family-semibold
-    );
+      $font-family-semibold );
   }
 
   &.bold {
@@ -559,12 +501,10 @@ body {
   }
 
   &.extrabold {
-    @include text-style(
-      46px,
+    @include text-style(46px,
       60px,
       $font-weight-extrabold,
-      $font-family-extrabold
-    );
+      $font-family-extrabold );
   }
 
   &.black {
@@ -578,12 +518,10 @@ body {
   }
 
   &.extralight {
-    @include text-style(
-      31px,
+    @include text-style(31px,
       37px,
       $font-weight-extralight,
-      $font-family-extralight
-    );
+      $font-family-extralight );
   }
 
   &.light {
@@ -599,12 +537,10 @@ body {
   }
 
   &.semibold {
-    @include text-style(
-      31px,
+    @include text-style(31px,
       37px,
       $font-weight-semibold,
-      $font-family-semibold
-    );
+      $font-family-semibold );
   }
 
   &.bold {
@@ -612,12 +548,10 @@ body {
   }
 
   &.extrabold {
-    @include text-style(
-      31px,
+    @include text-style(31px,
       37px,
       $font-weight-extrabold,
-      $font-family-extrabold
-    );
+      $font-family-extrabold );
   }
 
   &.black {
@@ -631,12 +565,10 @@ body {
   }
 
   &.extralight {
-    @include text-style(
-      80px,
+    @include text-style(80px,
       80px,
       $font-weight-extralight,
-      $font-family-extralight
-    );
+      $font-family-extralight );
   }
 
   &.light {
@@ -652,12 +584,10 @@ body {
   }
 
   &.semibold {
-    @include text-style(
-      80px,
+    @include text-style(80px,
       80px,
       $font-weight-semibold,
-      $font-family-semibold
-    );
+      $font-family-semibold );
   }
 
   &.bold {
@@ -665,12 +595,10 @@ body {
   }
 
   &.extrabold {
-    @include text-style(
-      80px,
+    @include text-style(80px,
       80px,
       $font-weight-extrabold,
-      $font-family-extrabold
-    );
+      $font-family-extrabold );
   }
 
   &.black {
@@ -697,7 +625,7 @@ input[type=number] {
 }
 
 
-.custom-btn{
+.custom-btn {
   min-width: px-to-rem(100px);
   max-width: fit-content;
   box-sizing: border-box;
@@ -707,11 +635,11 @@ input[type=number] {
   border-radius: px-to-rem(22px);
   outline: none;
   text-align: center;
-  border:0;
+  border: 0;
   transition: all .3s;
   position: relative;
   overflow: hidden;
-  cursor:pointer;
+  cursor: pointer;
 
   &:after {
     content: '';
@@ -735,54 +663,60 @@ input[type=number] {
   }
 }
 
-.custom-btn--primary{
-   background-color: var(--primary-blue);
-   z-index: 1;
- 
-   &:before {
-     background-color: darken($primary-blue, 15%);
-   }
-   &:hover {
-     color: var(--white);
-     &:before {
-       width: 100%;
-     }
-   }
+.custom-btn--primary {
+  background-color: var(--primary-blue);
+  z-index: 1;
+
+  &:before {
+    background-color: darken($primary-blue, 15%);
+  }
+
+  &:hover {
+    color: var(--white);
+
+    &:before {
+      width: 100%;
+    }
+  }
 }
 
-.custom-btn--danger{
+.custom-btn--danger {
   background-color: var(--primary-red);
 
   z-index: 1;
- 
-   &:before {
-     background-color: darken($primary-red, 15%);
-   }
-   &:hover {
-     color: var(--white);
-     &:before {
-       width: 100%;
-     }
-   }
+
+  &:before {
+    background-color: darken($primary-red, 15%);
+  }
+
+  &:hover {
+    color: var(--white);
+
+    &:before {
+      width: 100%;
+    }
+  }
 }
 
-.custom-btn--success{
+.custom-btn--success {
   background-color: var(--primary-forest-green);
 
   z-index: 1;
- 
-   &:before {
-     background-color: darken($primary-forest-green, 15%);
-   }
-   &:hover {
-     color: var(--white);
-     &:before {
-       width: 100%;
-     }
-   }
+
+  &:before {
+    background-color: darken($primary-forest-green, 15%);
+  }
+
+  &:hover {
+    color: var(--white);
+
+    &:before {
+      width: 100%;
+    }
+  }
 }
 
-a{
+a {
   color: var(--black) !important;
   text-decoration: none !important;
 }
@@ -795,46 +729,46 @@ a{
   color: var(--primary-dark-blue);
 }
 
-.txt-danger{
+.txt-danger {
   color: var(--primary-red)
 }
 
-.txt-primary{
+.txt-primary {
   color: var(--primary-blue)
 }
 
-.txt-secondary{
+.txt-secondary {
   color: var(--primary-grey)
 }
 
 
-.txt-success{
+.txt-success {
   color: var(--primary-forest-green)
 }
 
-.hover-danger:hover{
+.hover-danger:hover {
   color: var(--primary-red)
 }
 
 
-.bg-danger{
+.bg-danger {
   background-color: var(--primary-red)
 }
 
-.bg-primary{
+.bg-primary {
   background-color: var(--primary-blue)
 }
 
-.bg-secondary{
+.bg-secondary {
   background-color: var(--primary-grey)
 }
 
 
-.bg-success{
+.bg-success {
   background-color: var(--primary-forest-green)
 }
 
-.cp{
+.cp {
   cursor: pointer;
 }
 
@@ -860,7 +794,7 @@ a{
 }
 
 
-.fade-in-1{
+.fade-in-1 {
   animation: fadeIn-1 linear 0.5s;
   animation-delay: 0.2s;
   transform: none;
@@ -884,7 +818,7 @@ a{
 
 
 
-.fade-in-2{
+.fade-in-2 {
   animation: fadeIn-2 linear 0.5s;
   animation-delay: 0.4s;
   transform: none;
@@ -907,7 +841,7 @@ a{
 }
 
 
-.fade-in-3{
+.fade-in-3 {
   animation: fadeIn-3 linear 0.5s;
   animation-delay: 0.6s;
   transform: none;
@@ -1053,56 +987,97 @@ a{
   0% {
     transform: translatey(-40px) rotatez(45deg);
   }
+
   50% {
     transform: translatey(0px) rotatez(-0deg);
   }
+
   100% {
     transform: translatey(-40px) rotatez(45deg);
   }
 }
 
 
-.transit-left{
+.transit-left {
   animation: transit-left linear 0.5s;
 }
 
 @keyframes transit-left {
-  0%{
+  0% {
     transform: translateX(-100px);
     opacity: 0;
   }
 
-  100%{
+  100% {
     transform: translateX(0);
     opacity: 1;
   }
-  
+
 }
 
-.transit-right{
+.transit-right {
   animation: transit-right linear 0.5s;
 }
 
 @keyframes transit-right {
-  0%{
+  0% {
     transform: translateX(100px);
     opacity: 0;
   }
 
-  100%{
+  100% {
     transform: translateX(0);
     opacity: 1;
   }
-  
+
 }
 
 
 .arrow-up {
-  width: 0; 
-  height: 0; 
+  width: 0;
+  height: 0;
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
   border-bottom: 5px solid black;
 }
 
+.page_404 {
+  background: #fff;
+  font-family: 'Arvo', serif;
+}
 
+.page_404 img {
+  width: 100%;
+}
+
+.four_zero_four_bg {
+
+  background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+  height: px-to-rem(400px);
+  
+  // mix-blend-mode: darken;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.four_zero_four_bg h1 {
+  font-size: 80px;
+}
+
+.four_zero_four_bg h3 {
+  font-size: 80px;
+}
+
+.link_404 {
+  color: #fff !important;
+  // padding: 10px 20px;
+  background: #39ac31;
+  margin: 20px 0;
+  display: inline-block;
+}
+
+.contant_box_404 {
+  margin-top: -50px;
+}

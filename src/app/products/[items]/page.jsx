@@ -3,6 +3,7 @@ import React from "react";
 import {data} from '@/utils/data'
 import { usePathname } from 'next/navigation'
 import { ProductItems } from "@/components/ProductItems";
+import { ErrorPage } from "@/app/common/404Page";
 
 const Index=()=>{
 
@@ -16,7 +17,7 @@ const Index=()=>{
          {productList[path]?
           <ProductItems items={productList[path]} />
                   :
-          <>No data found</>
+          <ErrorPage />
         }
         </>
     )

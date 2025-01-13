@@ -1,6 +1,7 @@
 import React from "react";
 import { AudioOutlined, BarChartOutlined, ClusterOutlined, HeartOutlined, LineChartOutlined, MergeOutlined, NodeIndexOutlined, ProductOutlined, RobotOutlined, UserOutlined } from "@ant-design/icons";
 import { TabItems } from "@/components/TabItems";
+import { ErrorPage } from "@/app/common/404Page";
 
 
 export const data={
@@ -117,9 +118,9 @@ export const data={
           }}
           
           /> },
-          { icon: <RobotOutlined />, label: "RPA",children: 'No data found!' },
-          { icon: <LineChartOutlined />, label: 'Intelligent Routing Engine',children: 'No data found!' },
-          { icon: <BarChartOutlined />, label: 'Real Time Data Analytics',children: 'No data found!' }]
+          { icon: <RobotOutlined />, label: "RPA",children:<ErrorPage /> },
+          { icon: <LineChartOutlined />, label: 'Intelligent Routing Engine',children: <ErrorPage /> },
+          { icon: <BarChartOutlined />, label: 'Real Time Data Analytics',children: <ErrorPage /> }]
       }
     }
 
@@ -191,9 +192,9 @@ export const data={
           }}
           
           /> },
-          { icon: <RobotOutlined />, label: "Autonomous RPA",children: 'No data found!' },
-          { icon: <LineChartOutlined />, label: 'Intelligent RPA Engine',children: 'No data found!' },
-          { icon: <BarChartOutlined />, label: 'Real Time RPA Analytics',children: 'No data found!' }]
+          { icon: <RobotOutlined />, label: "Autonomous RPA",children: <ErrorPage /> },
+          { icon: <LineChartOutlined />, label: 'Intelligent RPA Engine',children: <ErrorPage /> },
+          { icon: <BarChartOutlined />, label: 'Real Time RPA Analytics',children: <ErrorPage /> }]
       }
     }
       
