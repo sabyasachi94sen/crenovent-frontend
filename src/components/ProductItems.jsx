@@ -12,7 +12,7 @@ export const ProductItems = ({items}) => {
 
 
     return (
-        <div className="container-fluid">
+        <div className="container-fluid fade-in">
             <div className="row">
                 <div className='col-lg-6 mb-5'>
                     <p className="txt-success h-46 semibold">{heroTitle}</p>
