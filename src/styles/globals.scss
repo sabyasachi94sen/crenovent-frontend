@@ -6,6 +6,7 @@
 @import './navbar/index.scss';
 @import './home/index.scss';
 @import './footer/index.scss';
+@import './contact/index.scss';
 
 
 
@@ -700,6 +701,26 @@ input[type=number] {
 
 .custom-btn--success {
   background-color: var(--primary-forest-green);
+
+  z-index: 1;
+
+  &:before {
+    background-color: darken($primary-forest-green, 15%);
+  }
+
+  &:hover {
+    color: var(--white);
+
+    &:before {
+      width: 100%;
+    }
+  }
+}
+
+
+.custom-btn--white {
+  background-color: var(--white);
+  color: var(--primary-forest-green);
 
   z-index: 1;
 

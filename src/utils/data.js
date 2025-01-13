@@ -28,13 +28,21 @@ export const data={
     }
 
   ],
+  "About": [
+    {
+      icon: <UserOutlined className='h-26 regular' />,
+      heading: "Contact Us",
+      url: '/contact',
+      description: 'Contact the AI Innovators'
+  },
+  ],
 
   "Products":[
     {
       icon: <RobotOutlined className='h-26 regular' />,
       heading: "GTM Engineer",
       url: '/products/gtm-engineer',
-      description: 'Empowering Sales Teams with Cutting-Edge AI Solutions to Drive Business Growth and Innovation."'
+      description: 'Empowering Sales Teams with Cutting-Edge AI Solutions to Drive Business Growth and Innovation.'
   },
       {
           icon: <AudioOutlined className='h-26 regular' />,
