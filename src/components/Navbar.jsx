@@ -37,7 +37,7 @@ export const Navbar = () => {
     ]
     }
 
-    const productList=fetchItems(Products,"AI Sales Agent")
+    const productList=fetchItems(Products,"Products")
     const AboutList=fetchItems(About,"Let's get in touch")
 
     // const items = [

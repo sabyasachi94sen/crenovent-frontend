@@ -1,5 +1,5 @@
 import React from "react";
-import { AudioOutlined, BarChartOutlined, ClusterOutlined, HeartOutlined, LineChartOutlined, MergeOutlined, NodeIndexOutlined, ProductOutlined, RobotOutlined, UserOutlined } from "@ant-design/icons";
+import { AudioOutlined, AuditOutlined, BarChartOutlined, ClusterOutlined, LineChartOutlined, MergeOutlined, NodeIndexOutlined, ProductOutlined, RobotOutlined, TagOutlined, UserOutlined } from "@ant-design/icons";
 import { TabItems } from "@/components/TabItems";
 import { ErrorPage } from "@/app/common/404Page";
 
@@ -51,10 +51,10 @@ export const data={
           description: 'Efficient amplified through automation'
       },
       {
-          icon: <HeartOutlined className='h-26 regular' />,
-          heading: 'Personalization',
-          url: '/',
-          description: 'Give your responses a WOW factor with easy personalisation'
+          icon: <ClusterOutlined className='h-26 regular' />,
+          heading: 'Analyse AI',
+          url: '/products/analyse-ai',
+          description: 'Power your analytics strategy'
       },
 
   ],
@@ -204,7 +204,80 @@ export const data={
           { icon: <LineChartOutlined />, label: 'Intelligent RPA Engine',children: <ErrorPage /> },
           { icon: <BarChartOutlined />, label: 'Real Time RPA Analytics',children: <ErrorPage /> }]
       }
+    },
+
+
+    "analyse-ai": {
+      heroReview: {
+        title: 'Analyse AI:  Unlock Insights from Every Interaction',
+        desc: 'At Crenovent, we understand the value of every interaction in your contact center, hence, we developed Analyse AI, a powerful solution that helps you extract valuable contact center reporting and analytics from every agent-customer interaction.',
+        btnTitle: 'Schedule a free consultation Now',
+        img_url: 'https://cdn.prod.website-files.com/61488f4f65be16b5ebbd450b/65ccf42e1bc4edaaa73e72c5_15.webp'
+      },
+      heroBlogs: {
+        tabs: [
+          { 
+            icon: <TagOutlined />,
+            label: "Auto-Tagging",
+            children:<TabItems 
+            items={{
+            tabReview: {
+              title: 'Analyze Customer Conversations to gain in-depth Insights',
+              desc: 'Our advanced STT capabilities ensure precise conversion of agent-customer conversations into text, making it easier for you to analyze and understand the context of each interaction, allowing you to enhance products and services based on call center efficiency metrics.',
+              btnTitle: 'Analyse AI in action',
+              img_url: 'https://getthematic.com/insights/content/images/2024/07/20240712-BLOG---How-conversational-analytics-works---Metrics.png'
+            },
+            tabBlogs: {
+              title1:'Understand Customer Preferences with Automated Tagging',
+              desc1: 'With automated tagging, you can categorize conversations based on predefined criteria, empowering you to effortlessly track relevant topics, identify trends, and gain actionable insights on consumer decision journey.',
+              img_url1: 'https://cdn.martech.zone/wp-content/uploads/2023/04/auto-tagging-process-1000x563.jpg',
+
+              title2: 'Streamline Contact Center Performance with Strategic Decision-making',
+              desc2: 'Our SOP-driven audits enable you to evaluate agent adherence to standard operating procedures, ensuring consistency and compliance. This allows you to proactively identify improvement areas and provide targeted coaching to enhance agent performance with customer journey analytics data.',
+              img_url2: 'https://www.qualtrics.com/m/assets/wp-content/uploads/2023/07/automated-call-summary-e1689004456974.webp',
+            },
+             tabGraphs: {
+              title: 'Traditional SAAS Service',
+              config : {
+               data: [
+                { year: '1991', value: 3 },
+                { year: '1992', value: 4 },
+                { year: '1993', value: 3.5 },
+                { year: '1994', value: 5 },
+                { year: '1995', value: 4.9 },
+                { year: '1996', value: 6 },
+                { year: '1997', value: 7 },
+                { year: '1998', value: 9 },
+                { year: '1999', value: 1 },
+              ]
+              ,
+               title: {
+                   visible: true,
+                   text : 'Traditional SAAS Service' , 
+                 },
+                 point: {
+                   visible:true, 
+                   size: 5,
+                   shape: 'diamond',
+                   style: {
+                     fill: 'white',
+                     stroke: '#2593fc',
+                     lineWidth: 2,
+                   },
+                 },
+               xField: 'year',
+               yField: 'value',
+             }
+
+            }
+          }}
+          
+          /> },
+          // { icon: <TagOutlined />, label: "Auto-Tagging",children:<ErrorPage /> },
+          { icon: <AuditOutlined />, label: 'SOP Audits',children: <ErrorPage /> }],
+      }
     }
+
       
   }
 }
