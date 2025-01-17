@@ -3,6 +3,7 @@ import React from "react";
 import { TabSlider } from "@/app/common/TabSlider"
 import { Image } from "antd"
 import PropTypes from "prop-types";
+import { GTMGraphics } from "@/app/common/GTMGraphics";
 
 export const ProductItems = ({items}) => {
  
@@ -22,14 +23,16 @@ export const ProductItems = ({items}) => {
                     <div className="custom-btn custom-btn--success">{heroBtnTitle}</div>
                 </div>
                 <div className='col-lg-6'>
-                    <Image 
+                    {heroImgUrl ? <Image 
                      height={'500px'} 
                      width={'100%'} 
                      style={{ objectFit: 'cover' }}
                      className="rounded" 
                      preview={false}
                      src={heroImgUrl}
-                     />
+                     />:
+                     <GTMGraphics />
+                    }
                 </div>
             </div>
             <TabSlider items={heroBlogs?.tabs} />

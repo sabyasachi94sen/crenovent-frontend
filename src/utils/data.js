@@ -1,5 +1,5 @@
 import React from "react";
-import { AudioOutlined, AuditOutlined, BarChartOutlined, ClusterOutlined, LineChartOutlined, MergeOutlined, NodeIndexOutlined, ProductOutlined, RobotOutlined, TagOutlined, UserOutlined } from "@ant-design/icons";
+import { AudioOutlined, AuditOutlined, BarChartOutlined, ClusterOutlined, LineChartOutlined, MergeOutlined, NodeIndexOutlined, PieChartOutlined, ProductOutlined, RobotOutlined, TagOutlined, UserOutlined } from "@ant-design/icons";
 import { TabItems } from "@/components/TabItems";
 import { ErrorPage } from "@/app/common/404Page";
 
@@ -56,6 +56,12 @@ export const data={
           url: '/products/analyse-ai',
           description: 'Power your analytics strategy'
       },
+      {
+        icon: <PieChartOutlined className='h-26 regular' />,
+        heading: 'Forecast',
+        url: '/forecast',
+        description: 'Power your analytics with our forecast ai'
+    },
 
   ],
 
@@ -65,7 +71,7 @@ export const data={
         title: 'GTM Engineer',
         desc: 'Experience the power of GTM AI with our intelligent Autonomous Agents, automate repetitive tasks with RPA, ensure seamless customer connections with our Intelligent Routing Engine, and gain actionable insights in real-time with our robust analytics capabilities.',
         btnTitle: 'Schedule a free consultation Now',
-        img_url: 'https://sapphireventures.com/wp-content/uploads/2024/05/DALL%C2%B7E-2024-05-28-15.00.21-An-abstract-and-futuristic-representation-of-generative-AI-app-technology-for-a-blog-post-titled-Building-the-Future_-A-Deep-Dive-Into-the-Generative.webp'
+        img_url: ''
       },
       heroBlogs: {
         tabs: [
